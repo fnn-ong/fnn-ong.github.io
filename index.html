@@ -11,6 +11,7 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Bootstrap JS -->
+    <script type="text/javascript" src="https://kit.fontawesome.com/30b455b9ab.js"></script>
     <script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
@@ -35,6 +36,8 @@
 
 <body>
 
+    <!-- Pensar em iframe -->
+
     <!-- Presentation -->
     <section id="presentation">
 
@@ -44,12 +47,12 @@
             <div class="row py-4">
 
                 <div class="col-xl-6 my-auto float-left">
-                    <h1>Banner da FNN</h1>
+                    <h1 class="float-left">Banner da FNN</h1>
                 </div>
 
-                <div id="header_social" class="col-xl-6 my-auto float-right">
-                    <a class="w-100" href="#"><img src="images/ic_instagram.svg" alt="ic_instagram"></a>
-                    <a class="w-100 mg-2" href="#"><img src="images/ic_facebook.svg" alt="ic_facebook"></a>
+                <div id="header_social" class="col-xl-6 my-auto">
+                    <a class="text-success" href="#"><i class="fab fa-instagram font-success fa-3x float-right"></i></a>
+                    <a class="text-success" href="#"><i class="fab fa-facebook font-success fa-3x mr-2 float-right"></i></a>
                 </div>
 
             </div>
@@ -81,12 +84,12 @@
                         <a class="nav-link" href="#">Menu 4</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Menu 5</a>
+                        <a class="nav-link" href="#">Missões</a>
                     </li>
                 </ul>
                 <form class="form-inline ml-auto" action="">
                     <input class="form-control" type="search" placeholder="Buscar...">
-                    <button class="btn btn-default" type="submit">Ok</button>
+                    <button class="btn btn-default" type="submit"><i class="fas fa-search"></i></button>
                 </form>
             </div>
         </nav>
@@ -133,10 +136,10 @@
         <div class="container my-5">
 
             <!-- Título do site -->
-            <div class="row my-5">
+            <div class="row my-5 ">
 
                 <div class="col-12 text-center">
-                    <h1 class="display-3 d-block w-100">Bem-Vindo à Frente de <br> Negros e Negras</h1>
+                    <h1 class="display-3 d-block w-100"><i class="fas fa-fist-raised"></i> Bem-Vindo à Frente de <br> Negros e Negras</h1>
                     <h6 class="text-muted my-2">Subtítulo</h6>
                 </div>
 
@@ -248,9 +251,42 @@
     </section>
 
     <!-- Contacts and Footer -->
-    <section>
-        <!--escolher uma cor verde-->
+    <section id="contactsFooter">
+        
+        <!-- Contacts -->
+        <div class="container">
+
+            <div class="row">
+
+                <!-- E-mail -->
+                <div class="col-6">
+                    <h1>teste</h1>
+
+                </div>
+
+                <!-- Others -->
+                <div class="col-6">
+                    <h1>teste</h1>
+
+                </div>
+
+            </div>
+
+            <!-- Footer -->
+        </div>
+
+        
     </section>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalSite" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal" role="document">
+            <div class="modal-content">
+                <div class="modal-header"></div>
+            </div>
+        </div>
+    </div>
 
 
 </body>

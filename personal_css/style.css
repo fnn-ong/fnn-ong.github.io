@@ -17,7 +17,6 @@ nav{
 
 #header {
     height: 100px;
-    display: flex;
 }
 
 #header_social img {
@@ -34,4 +33,8 @@ nav{
 #carouselSite img {
     width: 100%;
     height: 400px;
+}
+
+#contactsFooter{
+    background-image: linear-gradient(-225deg, #85BC92 50%, #84BB91 48%, #7AB689 100%);
 }
