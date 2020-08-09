@@ -7,6 +7,10 @@ nav{
     height: 625px;
 }
 
+#presentation li{
+    border-right: 0.5px solid #6ece84;
+}
+
 #header {
     height: 100px;
     display: flex;
