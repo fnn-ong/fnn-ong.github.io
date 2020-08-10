@@ -9,17 +9,20 @@
     <meta name="description" content="Organização de apoio a Negros e Negras">
     <meta name="author" content="Messias Nunesmaia">
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Bootstrap JS -->
-    <script type="text/javascript" src="https://kit.fontawesome.com/30b455b9ab.js"></script>
-    <script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
 
     <!-- Personal CSS -->
     <link rel="stylesheet" href="personal_css/style.css" type="text/css">
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="https://kit.fontawesome.com/30b455b9ab.js"></script>
+    <script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
     <!-- Script of roll -->
     <script>
@@ -51,8 +54,10 @@
                 </div>
 
                 <div class="col-6 my-auto float-right">
-                    <a class="text-success" href="#" target="blanc"><i class="fab fa-instagram font-success fa-3x float-right"></i></a>
-                    <a class="text-success" href="#" target="blanc"><i class="fab fa-facebook font-success fa-3x mr-3 float-right"></i></a>
+                    <a class="text-success" href="#" target="blanc"><i
+                            class="fab fa-instagram font-success fa-3x float-right"></i></a>
+                    <a class="text-success" href="#" target="blanc"><i
+                            class="fab fa-facebook font-success fa-3x mr-3 float-right"></i></a>
                 </div>
 
             </div>
@@ -61,7 +66,8 @@
 
         <!-- Navegation -->
         <nav id="navbar" class="container navbar navbar-expand-lg navbar-light my-2">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite"
+                aria-controls="navbarSite" aria-expanded="false">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div id="narvbarSite" class="collapse navbar-collapse">
@@ -262,30 +268,23 @@
                 <!-- Form -->
                 <div class="col-xl-6 col-sm-12 my-4">
                     <h1 class="text-center"><i class="far fa-paper-plane mb-5"></i> Fale conosco</h1>
-
                     <form id="fs-frm" name="survey-form" target="_blank" accept-charset="utf-8"
                         action="https://formspree.io/fdenegrosenegras@gmail.com" method="post">
                         <fieldset id="fs-frm-inputs">
-                            <label for="full-name">Nome Completo</label>
                             <input type="text" name="Nome" id="full-name" placeholder="Nome Sobrenome" required="true">
-                            <label for="email-address">E-mail</label>
-                            <input type="email" name="E-mail" id="email-address" placeholder="email@dominio.com"
-                                required="true">
-                            <label for="telephone">Telefone</label>
-                            <input type="telephone" name="Telefone" id="telephone" placeholder="(99) 9 9999-9999">
+                            <input type="email" name="E-mail" id="email-address" placeholder="E-mail" required="true">
+                            <input type="telephone" name="Telefone" id="telephone" placeholder="Telefone">
                             <fieldset id="fs-frm-selects">
-                                <label for="timely">Setor</label>
                                 <select name="Setor" id="timely" required="">
-                                    <option value="Escolher" selected="" disabled="">Escolher</option>
+                                    <option value="Setor" selected="" disabled="">Setor</option>
                                     <option value="Doação">Doação</option>
                                     <option value="Ajuda">Ajuda</option>
                                     <option value="Evento">Evento</option>
                                     <option value="Outros">Outros</option>
                                 </select>
                             </fieldset>
-                            <label for="message">Mensagem</label>
-                            <textarea rows="3" name="Mensagem" id="message"
-                                placeholder="Estou entrando em contato porque..." required="true"></textarea>
+                            <textarea rows="3" name="Mensagem" id="message" placeholder="Mensagem"
+                                required="true"></textarea>
                             <input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
                         </fieldset>
                         <input class="float-right" type="submit" value="Enviar">
@@ -330,7 +329,7 @@
                             border: 1px solid rgba(0, 0, 0, 0.2);
                             background-color: rgba(255, 255, 255, 0.9);
                             padding: .75em 1rem;
-                            margin-bottom: 1.5rem;
+                            margin-bottom: 1rem;
                         }
 
                         #fs-frm input:focus,
@@ -434,7 +433,6 @@
             </div>
         </div>
     </div>
-
 
 </body>
 
