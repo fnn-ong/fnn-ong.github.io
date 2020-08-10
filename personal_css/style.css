@@ -19,6 +19,10 @@ nav{
     height: 100px;
 }
 
+#header i{
+    text-decoration-color: white;
+}
+
 #carouselSite {
     width: 100%;
     height: 400px;
