@@ -39,10 +39,8 @@
 
 <body>
 
-    <!-- Pensar em iframe -->
-
     <!-- Presentation -->
-    <section id="presentation">
+    <section id="presentation" class="w-100 pt-2 pb-3">
 
         <div class="container">
 
@@ -67,7 +65,7 @@
             </div>
 
             <!-- Navegation -->
-            <nav id="navbar" class="navbar navbar-expand-lg navbar-light my-2">
+            <nav id="navbar" class="navbar navbar-expand-lg navbar-light my-2 rounded">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite"
                     aria-controls="navbarSite" aria-expanded="false">
                     <span class="navbar-toggler-icon"></span>
@@ -136,7 +134,7 @@
     </section>
 
     <!-- Content -->
-    <section id="content">
+    <section id="content" class="w-100">
 
         <div class="container my-5">
 
@@ -144,7 +142,8 @@
             <div class="row my-5 ">
 
                 <div class="col-12 text-center">
-                    <h1 class="display-3 d-block w-100"><i class="fas fa-fist-raised"></i> Bem-Vindo à Frente de <br>
+                    <h1 class="display-3 display-sm-none"><i class="fas fa-fist-raised"></i>
+                        Bem-Vindo à Frente de <br>
                         Negros e Negras</h1>
                     <h6 class="text-muted my-2">Subtítulo</h6>
                 </div>
@@ -257,7 +256,7 @@
     </section>
 
     <!-- Contact and Footer -->
-    <section id="contactFooter">
+    <section id="contactFooter" class="w-100">
 
         <div class="container">
 
@@ -267,13 +266,15 @@
                 <!-- Form -->
                 <div class="col-xl-6 col-sm-12 mt-4">
                     <h1 class="text-center"><i class="far fa-paper-plane mb-5"></i> Fale conosco</h1>
-                    <form  id="fs-frm" name="survey-form" target="_blank" accept-charset="utf-8"
+                    <form id="fs-frm" name="survey-form" target="_blank" accept-charset="utf-8"
                         action="https://formspree.io/fdenegrosenegras@gmail.com" method="post">
                         <fieldset id="fs-frm-inputs">
-                            <input class="bg-secondary" type="text" name="Nome" id="full-name" placeholder="Nome Sobrenome" required="true">
-                            <input class="bg-secondary" type="email" name="E-mail" id="email-address" placeholder="E-mail" required="true">
-                            <input class="bg-secondary" type="telephone" name="Telefone" id="telephone" placeholder="Telefone"
-                                required="true">
+                            <input class="bg-secondary" type="text" name="Nome" id="full-name"
+                                placeholder="Nome Sobrenome" required="true">
+                            <input class="bg-secondary" type="email" name="E-mail" id="email-address"
+                                placeholder="E-mail" required="true">
+                            <input class="bg-secondary" type="telephone" name="Telefone" id="telephone"
+                                placeholder="Telefone" required="true">
                             <fieldset id="fs-frm-selects">
                                 <select class="bg-secondary" name="Setor" id="timely" required="true">
                                     <option value="Setor" selected="" disabled="">Setor</option>
@@ -342,7 +343,7 @@
                             outline-width: thin;
                             outline-color: gray;
                             outline-offset: -1px;
-                            
+
                         }
 
                         #fs-frm [type="text"],
@@ -365,7 +366,7 @@
                         #fs-frm [type="submit"]:focus,
                         #fs-frm [type="reset"]:focus {
                             outline: none;
-                            
+
                         }
 
                         #fs-frm [type="submit"],
@@ -433,8 +434,8 @@
                 <div class="col-12 text-center my-2">
                     <blockquote>
                         <p>© 2020. Todos os direitos reservados.</p>
-                        <footer class="blockquote-footer">Criado por <cite><a class="text-muted text-reset" target="_blank"
-                                    href="https://messias-dev.github.io">Messias
+                        <footer class="blockquote-footer">Criado por <cite><a class="text-muted text-reset"
+                                    target="_blank" href="https://messias-dev.github.io">Messias
                                     Nunesmaia</a></cite></footer>
                     </blockquote>
                 </div>
