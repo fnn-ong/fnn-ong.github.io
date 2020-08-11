@@ -9,6 +9,11 @@ L=#85BC92 M=#84BB91 R=#7AB689
 
 
 
+cor cinza = background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+
+
+
+
 
 FORMS
 
