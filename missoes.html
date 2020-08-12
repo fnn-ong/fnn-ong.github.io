@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Organização Nacional de Combate ao Racismo">
+    <meta name="author" content="Messias Nunesmaia">
+    <link rel="shortcut icon" href="images/hand_icon.svg">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Personal CSS -->
+    <link rel="stylesheet" href="personal_css/style.css" type="text/css">
+
+    <!-- Optional Scripts -->
+    <script type="text/javascript" src="https://kit.fontawesome.com/30b455b9ab.js"></script>
+    <script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Script of roll -->
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 600);
+            });
+        });
+    </script>
+
+    <title>Missões</title>
+</head>
+
+<body>
+
+    <!-- Presentation -->
+    <section id="presentation" class="w-100 pt-2 pb-3">
+
+        <div class="container">
+
+            <!-- Banner -->
+            <div id="header">
+
+                <div class="row py-4 clearfix">
+
+                    <div class="col-6 my-auto float-left">
+                        <a href="https://fnn-ong.github.io/"><img class="w-25" src="images/logo.png" alt="logo_fnn"></a>
+                    </div>
+
+                    <div class="col-6 my-auto float-right">
+                        <a class="text-dark" href="https://www.instagram.com/frentenacionaldenegros/" target="blank"><i
+                                class="fab fa-instagram fa-3x float-right"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Navegation -->
+            <nav id="navbar" class="navbar navbar-expand-lg navbar-light my-2 rounded">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite"
+                    aria-controls="navbarSite" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="narvbarSite" class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">Menu 1</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Submenu 1</a>
+                                <a class="dropdown-item" href="#">Submenu 2</a>
+                                <a class="dropdown-item" href="#">Submenu 3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu 3</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu 4</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="missions.html">Missões</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Carousel -->
+            <div id="carouselSite" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="img-fluid d-block w-100" src="images/carousel_1.jpg" alt="image_1">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid d-block w-100" src="images/carousel_2.jpg" alt="image_2">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid d-block w-100" src="images/carousel_3.jpg" alt="image_3">
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+
+            </div>
+
+    </section>
+
+    <!-- Content -->
+    <section id="content">
+
+        <div class="container">
+
+            <!-- Description -->
+            <div class="row text-center">
+                <h1 class="col-12 display-3 my-5">Missões</h1>
+            </div>
+
+            <!-- Videos -->
+            <div class="">
+                <video  controls>
+                    <source src="videos/fnn_acao_01.mp4" type="video/mp4">
+                  </video>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
