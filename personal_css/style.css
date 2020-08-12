@@ -10,6 +10,10 @@ nav{
     background-color: #E4E4E4;
 }
 
+#presentation img{
+    height: 100%;
+}
+
 #navbar li{
     border-right: 0.5px solid #7AB689;
 }
