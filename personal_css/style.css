@@ -38,6 +38,10 @@ nav {
     height: 400px;
 }
 
+#content{
+    background-image: linear-gradient(-225deg, #85BC92 50%, #84BB91 48%, #7AB689 100%);
+}
+
 #supporters img {
     width: 100%;
     height: 8rem;
