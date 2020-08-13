@@ -37,6 +37,16 @@ nav{
     height: 400px;
 }
 
+#supporters img{
+width: 16rem;
+height: 8rem;
+}
+
+#reflections img{
+    height: 22.4rem;
+}
+
+
 #contactFooter{
     background-image: linear-gradient(-225deg, #85BC92 50%, #84BB91 48%, #7AB689 100%);
 }
