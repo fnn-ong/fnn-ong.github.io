@@ -1,8 +1,8 @@
-nav{
+nav {
     background-image: linear-gradient(-225deg, #85BC92 50%, #84BB91 48%, #7AB689 100%);
 }
 
-.card-link{
+.card-link {
     float: right;
 }
 
@@ -10,11 +10,11 @@ nav{
     background-color: #E4E4E4;
 }
 
-#presentation img{
+#presentation img {
     height: 100%;
 }
 
-#navbar li{
+#navbar li {
     border-right: 0.5px solid #7AB689;
 }
 
@@ -22,12 +22,12 @@ nav{
     height: 100px;
 }
 
-#header img{
+#header img {
     width: 18rem;
     height: 6rem;
 }
 
-#header i{
+#header i {
     color: #7AB689;
 }
 
@@ -42,22 +42,27 @@ nav{
     height: 400px;
 }
 
-#supporters img{
-width: 16rem;
-height: 8rem;
+#supporters img {
+    width: 16rem;
+    height: 8rem;
 }
 
-#reflections img{
+#reflections img {
     height: 22.4rem;
 }
 
-
-#contactFooter{
+#contactFooter {
     background-image: linear-gradient(-225deg, #85BC92 50%, #84BB91 48%, #7AB689 100%);
 }
 
-#contactFooter img{
+#contactFooter img {
     width: 14rem;
-height: 7rem;
+    height: 7rem;
 }
 
+@media only screen and (max-width: 700px) {
+    #header img {
+        width: 10rem;
+        height: 5rem;
+    }
+}
