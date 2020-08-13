@@ -5,7 +5,7 @@
 
     <!-- Required meta tags -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Organização Nacional de Combate ao Racismo">
     <meta name="author" content="Messias Nunesmaia">
     <link rel="shortcut icon" href="images/hand_icon.svg">
@@ -19,10 +19,11 @@
     <!-- Optional Scripts -->
     <script type="text/javascript" src="https://kit.fontawesome.com/30b455b9ab.js"></script>
     <script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
 
     <!-- Script of roll -->
     <script>
@@ -64,11 +65,14 @@
 
             <!-- Navegation -->
             <nav id="navbar" class="navbar navbar-expand-lg navbar-light my-2 rounded">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite"
-                    aria-controls="navbarSite" aria-expanded="false">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSite" aria-controls="navbarSite" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div id="narvbarSite" class="collapse navbar-collapse">
+
+                <div id="navbarSite" class="collapse navbar-collapse" data-parent="teste">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"
@@ -141,7 +145,7 @@
             <div class="row my-5 ">
 
                 <div class="col-12 text-center">
-                    <h1 class="display-3"><i class="fas fa-fist-raised"></i>
+                    <h1 class="display-3 d-xl-none "><i class="fas fa-fist-raised"></i>
                         Bem-Vindo à Frente De <br>
                         Negros e Negras</h1>
                     <h6 class="text-muted my-5">Organização Nacional de Combate ao Racismo</h6>
@@ -494,6 +498,7 @@
             </div>
         </div>
     </div>
+
 
 </body>
 
