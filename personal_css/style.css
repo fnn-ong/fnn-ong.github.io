@@ -22,6 +22,11 @@ nav{
     height: 100px;
 }
 
+#header img{
+    width: 18rem;
+    height: 6rem;
+}
+
 #header i{
     color: #7AB689;
 }
