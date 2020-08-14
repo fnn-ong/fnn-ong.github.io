@@ -50,6 +50,7 @@ nav {
 #news img{
     width: 3rem;
     height: 3rem;
+    background-image: linear-gradient(-225deg, #85BC92 50%, #84BB91 48%, #7AB689 100%);
 }
 
 #supporters img {
