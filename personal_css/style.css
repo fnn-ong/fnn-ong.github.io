@@ -6,6 +6,11 @@ nav {
     float: right;
 }
 
+.new-content{
+    
+    height: 3rem;
+}
+
 #presentation{
     background-color: #E4E4E4;
 }
@@ -40,6 +45,11 @@ nav {
 #carouselSite img {
     width: 100%;
     height: 400px;
+}
+
+#news img{
+    width: 3rem;
+    height: 3rem;
 }
 
 #supporters img {
