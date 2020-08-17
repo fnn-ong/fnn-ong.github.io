@@ -6,12 +6,11 @@ nav {
     float: right;
 }
 
-.new-content{
-    
+.new-content {
     height: 3rem;
 }
 
-#presentation{
+#presentation {
     background-color: #E4E4E4;
 }
 
@@ -47,7 +46,7 @@ nav {
     height: 400px;
 }
 
-#news img{
+#news img {
     width: 3rem;
     height: 3rem;
     background-image: linear-gradient(-225deg, #85BC92 50%, #84BB91 48%, #7AB689 100%);
@@ -71,27 +70,22 @@ nav {
     height: 7rem;
 }
 
-#perfil img{
+#perfil img {
     height: 18rem;
     width: 18rem;
-    
 }
 
 @media only screen and (max-width: 700px) {
-
     #header img {
         width: 10rem;
         height: 5rem;
     }
-
     #carouselSite {
         height: 300px;
         background-color: transparent;
     }
-
     #carouselSite img {
         width: 100%;
         height: 300px;
     }
-
 }
