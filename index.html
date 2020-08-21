@@ -66,17 +66,16 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">Início</a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="quem_somos.html">Quem somos</a>
                                 <a class="dropdown-item" href="missao.html">Missão</a>
                                 <a class="dropdown-item" href="objetivo.html">Objetivo</a>
                                 <a class="dropdown-item" href="visao.html">Visão</a>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="convite.html">Convite</a>
+                            <a class="nav-link" href="quem_somos.html">Quem Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
+                            <a class="nav-link" href="convite.html">Convite</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="acoes.html">Ações</a>
@@ -147,7 +146,7 @@
         <div class="container my-5">
 
             <!-- Title -->
-            <div class="my-5 ">
+            <div>
 
                 <div class="col-12 text-center">
                     <h1 class="d-none d-md-block display-3"><i class="fas fa-fist-raised"></i>
@@ -162,9 +161,12 @@
             </div>
 
             <!-- News -->
-            <h4>ÚLTIMAS NOTÍCIAS</h4>
+            <div id="news" class="d-block my-5 py-5 text-uppercase ">
 
-            <div id="news" class="row my-5 text-uppercase ">
+                <div>
+                    <h4 class="my-5">ÚLTIMAS NOTÍCIAS</h4>
+                </div>
+
                 <div class="col-sm-12 col-md-8 mr-auto mb-auto">
 
                     <div class="card shadow-sm my-3">
@@ -173,7 +175,8 @@
 
                             <div class="d-inline-block col-12 mb-2 new-content">
                                 <p class="card-text text-truncate"><img src="images/calendar_14_08.png"
-                                        alt="calendar_14_08" class="rounded-circle">&nbsp&nbsp&nbsp&nbsp Lorem ipsum dolor sit
+                                        alt="calendar_14_08" class="rounded-circle">&nbsp&nbsp&nbsp&nbsp Lorem ipsum
+                                    dolor sit
                                     amet,
                                     consectetur adipiscing elit.</p>
                             </div>
@@ -199,111 +202,122 @@
                     </div>
 
                 </div>
+
             </div>
 
             <!-- Supporters -->
-            <h4>APOIADORES</h4>
+            <div id="supporters" class="d-block col-12 my-5 py-5">
 
-            <!-- Cards -->
-            <div id="supporters" class="row col-12 my-5">
+                <div>
+                    <h4 class="my-5">APOIADORES</h4>
+                </div>
 
-                <div class="col-xl-3 col-sm-3">
+                <!-- Cards -->
+                <div class="row">
+                    <div class="col-xl-3 col-sm-3">
 
-                    <div class="card shadow-sm my-3">
+                        <div class="card shadow-sm my-3">
 
-                        <div>
-                            <img src="images/example.png" alt="apoiador_2">
+                            <div>
+                                <img src="images/example.png" alt="apoiador_2">
+                            </div>
+
                         </div>
 
                     </div>
 
-                </div>
+                    <div class="col-xl-3  col-sm-3">
 
-                <div class="col-xl-3  col-sm-3">
+                        <div class="card shadow-sm my-3">
 
-                    <div class="card shadow-sm my-3">
+                            <div>
+                                <img src="images/example.png" alt="apoiador_2">
+                            </div>
 
-                        <div>
-                            <img src="images/example.png" alt="apoiador_2">
                         </div>
 
                     </div>
-
                 </div>
+
             </div>
 
             <!-- Reflections -->
-            <h4>DESTAQUES</h4>
+            <div id="reflections" class="d-block my-5 py-5">
 
-            <!-- Cards -->
-            <div id="reflections" class="row my-5">
+                <div>
+                    <h4 class="my-5">DESTAQUES</h4>
+                </div>
 
-                <div class="col-sm-12 col-xl-6 mx-auto mb-auto">
+                <!-- Cards -->
+                <div class="row">
+                    <div class="col-sm-12 col-xl-6 mx-auto mb-auto">
 
-                    <div class="card shadow-sm my-3">
+                        <div class="card shadow-sm my-3">
 
-                        <img class="card-img-top" src="images/nelson_mandela.jpg" alt="nelson_mandela">
+                            <img class="card-img-top" src="images/nelson_mandela.jpg" alt="nelson_mandela">
 
-                        <div class="card-body">
-                            <h5 class="card-title">Nelson Mandela</h5>
-                            <h6 class="text-muted card-substitle mb-2">Ex-Presidente da África do Sul</h6>
-                            <p class="card-text">Nelson Mandela defendia uma sociedade justa e democrática e lutou
-                                contra a opressão racial e pelo
-                                fim do apartheid.</p>
-                            <a class="card-link text-success" href="nelson_mandela.html">Saber Mais</a>
+                            <div class="card-body">
+                                <h5 class="card-title">Nelson Mandela</h5>
+                                <h6 class="text-muted card-substitle mb-2">Ex-Presidente da África do Sul</h6>
+                                <p class="card-text">Nelson Mandela defendia uma sociedade justa e democrática e lutou
+                                    contra a opressão racial e pelo
+                                    fim do apartheid.</p>
+                                <a class="card-link text-success" href="nelson_mandela.html">Saber Mais</a>
+                            </div>
+
                         </div>
 
                     </div>
 
-                </div>
+                    <div class="col-sm-12 col-xl-6 mx-auto mb-auto">
 
-                <div class="col-sm-12 col-xl-6 mx-auto mb-auto">
+                        <div class="card shadow-sm my-3">
 
-                    <div class="card shadow-sm my-3">
+                            <img class="card-img-top" src="images/indian.jpg" alt="">
 
-                        <img class="card-img-top" src="images/indian.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Indígenas</h5>
+                                <h6 class="text-muted card-subtitle mb-2">Povos Indígenas do Brasil</h6>
+                                <p class="card-text">As cotas são de fundamental importância para que indígenas tenham
+                                    acesso à vida acadêmica !</p>
+                                <a class="card-link text-success" href="indigenas.html">Saber Mais</a>
+                            </div>
 
-                        <div class="card-body">
-                            <h5 class="card-title">Indígenas</h5>
-                            <h6 class="text-muted card-subtitle mb-2">Povos Indígenas do Brasil</h6>
-                            <p class="card-text">As cotas são de fundamental importância para que indígenas tenham
-                                acesso à vida acadêmica !</p>
-                            <a class="card-link text-success" href="indigenas.html">Saber Mais</a>
                         </div>
 
                     </div>
 
-                </div>
+                    <div class="col-sm-12 col-xl-6 mx-auto mb-auto">
 
-                <div class="col-sm-12 col-xl-6 mx-auto mb-auto">
+                        <div class="card shadow-sm my-3">
 
-                    <div class="card shadow-sm my-3">
+                            <img class="card-img-top" src="images/lgbt_flag.jpg" alt="">
 
-                        <img class="card-img-top" src="images/lgbt_flag.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">LGBTQI+</h5>
+                                <h6 class="text-muted card-subtitle mb-2">Movimento Social Mundial</h6>
+                                <p class="card-text">Ame o próximo, se não conseguir pelo menos respeite.</p>
+                                <a class="card-link text-success" href="lgbt.html">Saber Mais</a>
+                            </div>
 
-                        <div class="card-body">
-                            <h5 class="card-title">LGBTQI+</h5>
-                            <h6 class="text-muted card-subtitle mb-2">Movimento Social Mundial</h6>
-                            <p class="card-text">Ame o próximo, se não conseguir pelo menos respeite.</p>
-                            <a class="card-link text-success" href="lgbt.html">Saber Mais</a>
                         </div>
 
                     </div>
 
-                </div>
+                    <div class="col-sm-12 col-xl-6 mx-auto mb-auto">
 
-                <div class="col-sm-12 col-xl-6 mx-auto mb-auto">
+                        <div class="card shadow-sm my-3">
 
-                    <div class="card shadow-sm my-3">
+                            <img class="card-img-top" src="images/woman_braids.jpg" alt="">
 
-                        <img class="card-img-top" src="images/woman_braids.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Mulheres Negras</h5>
+                                <h6 class="text-muted card-subtitle mb-2">Empoderamento Negro</h6>
+                                <p class="card-text">As tranças africanas significam o símbolo das lutas de resistências
+                                    coloniais.</p>
+                                <a class="card-link text-success" href="mulheres.html">Saber Mais</a>
+                            </div>
 
-                        <div class="card-body">
-                            <h5 class="card-title">Mulheres Negras</h5>
-                            <h6 class="text-muted card-subtitle mb-2">Empoderamento Negro</h6>
-                            <p class="card-text">As tranças africanas significam o símbolo das lutas de resistências
-                                coloniais.</p>
-                            <a class="card-link text-success" href="mulheres.html">Saber Mais</a>
                         </div>
 
                     </div>
@@ -311,7 +325,6 @@
                 </div>
 
             </div>
-        </div>
 
         </div>
 
@@ -519,8 +532,8 @@
 
                 <div class="col-12 text-center my-2">
                     <blockquote>
-                        <p>© 2020 Todos os direitos reservados.</p>
-                        <footer class="blockquote-footer text-dark">Criado por <cite><a class="text-primary"
+                        <p>&copy 2020 Todos os direitos reservados.</p>
+                        <footer class="blockquote-footer text-dark">Desenvolvido por <cite><a class="text-primary"
                                     target="_blank" href="http://www.messias.gq">Messias
                                     Nunesmaia</a></cite></footer>
                     </blockquote>
