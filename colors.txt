@@ -4,6 +4,8 @@ Cor de Menu/rRodapé = background-image: linear-gradient(-225deg, #85BC92 50%, #
 
 L=#85BC92 M=#84BB91 R=#7AB689
 
+text-color = #8BC34A;
+
 
 
 
